@@ -1,0 +1,18 @@
+<joblist>
+  <job>
+    <defaultTab>summary</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>7796221b-3a07-4dc2-81b7-314b4f951ef3</id>
+    <loglevel>INFO</loglevel>
+    <name>JobHelloMetaUniverse</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo "hi meta universe"</exec>
+      </command>
+    </sequence>
+    <uuid>7796221b-3a07-4dc2-81b7-314b4f951ef3</uuid>
+  </job>
+</joblist>
